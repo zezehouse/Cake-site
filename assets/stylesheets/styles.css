@@ -173,14 +173,18 @@ li a:hover {
 }
 
 .filterDiv {
-    float: center;
-    background-color: #2196F3;
     color: #ffffff;
     width: 200px;
     line-height: 100px;
     text-align: center;
-    margin: 2px;
+    margin: 20px;
     display: none;
+}
+
+.filterDiv img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 .show {
@@ -203,8 +207,3 @@ li a:hover {
   background-color: #787C59;
   color: white;
 }
-
-.filterDiv img {
-    width: 100%;
-    height: auto;
-    display: block;
